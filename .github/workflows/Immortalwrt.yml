@@ -16,7 +16,7 @@ on:
       REPO_BRANCH:
         description: '天灵源码-请选择分支'
         required: true
-        default: 'openwrt-21.02'
+        default: 'openwrt-23.05'
         type: choice
         options:
           - 'openwrt-23.05'
@@ -28,11 +28,12 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: 'x86_64'
+        default: 'r3g'
         type: choice
         options:
           - 'x86_64'
           - 'aarch64'
+          - 'r3g'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
@@ -75,7 +76,7 @@ on:
       UPDATE_FIRMWARE_ONLINE:
         description: '增加在线更新固件功能/自动打包Amlogic_Rockchip系列固件'
         required: false
-        default: 'true'
+        default: 'false'
         type: boolean
       COMPILATION_INFORMATION:
         description: '是否显示编译信息'
