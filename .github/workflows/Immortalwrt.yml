@@ -28,7 +28,7 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: 'r3g'
+        default: 'x86_64'
         type: choice
         options:
           - 'x86_64'
