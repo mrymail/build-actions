@@ -103,6 +103,9 @@ Lede-18.06-5.4.278-ramips-mt7621-xiaomi_mi-router-3g.manifest
 #ramips-mt7621-xiaomi_mi-router-3g-initramfs-kernel.bin
 ramips-mt7621-xiaomi_mi-router-3g-squashfs-kernel1.bin
 ramips-mt7621-xiaomi_mi-router-3g-squashfs-rootfs0.bin
+x86-64-generic-squashfs-combined.img.gz
+x86-64-generic-squashfs-combined.vmdk
+x86-64-generic-squashfs-combined-efi.img.gz
 EOF
 
 # 在线更新时，删除不想保留固件的某个文件，在EOF跟EOF之间加入删除代码，记住这里对应的是固件的文件路径，比如： rm -rf /etc/config/luci
