@@ -28,12 +28,13 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: 'x86_64'
+        default: 'Eric'
         type: choice
         options:
           - 'x86_64'
           - 'aarch64'
           - 'r3g'
+          - 'Eric'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
