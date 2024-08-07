@@ -99,8 +99,8 @@ openwrt-x86-64-generic-kernel.bin
 openwrt-x86-64-generic.manifest
 openwrt-x86-64-generic-squashfs-rootfs.img.gz
 ramips-mt7621-xiaomi_mi-router-3g.manifest
-ramips-mt7621-xiaomi_mi-router-3g-initramfs-kernel.bin
-ramips-mt7621-xiaomi_mi-router-3g-squashfs-kernel1.bin
+#ramips-mt7621-xiaomi_mi-router-3g-initramfs-kernel.bin
+#ramips-mt7621-xiaomi_mi-router-3g-squashfs-kernel1.bin
 ramips-mt7621-xiaomi_mi-router-3g-squashfs-rootfs0.bin
 EOF
 
